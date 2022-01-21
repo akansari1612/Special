@@ -63,7 +63,7 @@ var love = setInterval(function () {
       else if (txt1.charAt(i) == "|") {
         $(".bg_heart").css(
           "background-image",
-          "url('https://eisamay.com/photo/msid-80745707,imgsize-159310/pic.jpg')"
+          "url('../pic.jpg')"
         );
       } else document.getElementById("text1").innerHTML += txt1.charAt(i);
       i++;
